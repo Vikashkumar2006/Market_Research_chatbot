@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: market-research-chatbot
+    env: node
+    rootDir: .
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: NVIDIA_API_KEY
+        sync: false # This will prompt for the value during deployment
