@@ -210,5 +210,5 @@ MIT
 
 ## Author
 
-Amandeep Singh
+Vikash Kumar Singh
 
